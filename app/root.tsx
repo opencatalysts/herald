@@ -28,6 +28,25 @@ export const links: LinksFunction = () => {
 			href: 'https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap',
 		},
 		{ rel: 'stylesheet', href: styles },
+		{ rel: 'manifest', href: '/site.webmanifest' },
+		{
+			rel: 'apple-touch-icon',
+			sizes: '180x180',
+			href: '/apple-touch-icon.png',
+		},
+		{
+			rel: 'icon',
+			type: 'image/png',
+			sizes: '32x32',
+			href: '/favicon-32x32.png',
+		},
+		{
+			rel: 'icon',
+			type: 'image/png',
+			sizes: '16x16',
+			href: '/favicon-16x16.png',
+		},
+		{ rel: 'mask-icon', color: '#5bbad5', href: '/safari-pinned-tab.svg' },
 	]
 }
 
@@ -35,19 +54,19 @@ export const meta: MetaFunction = () => ({
 	// TODO: Fill out the empty strings as required
 	charset: 'utf-8',
 	'msapplication-TileColor': '#2b5797',
-	'og:site': '',
-	'og:url': '',
-	'og:title': '',
-	'og:description': '',
+	'og:site': 'https://useherald.com',
+	'og:url': 'https://useherald.com',
+	'og:title': 'Herald: All-in-one solution to announce product updates and get feedback from customers.',
+	'og:description': 'Create waitlists, banners, changelogs and roadmaps for your product in a few minutes.',
 	'og:image': '',
-	'theme-color': '',
-	title: '',
+	'theme-color': '#ffffff',
+	title: 'Herald: All-in-one solution to announce product updates and get feedback from customers.',
 	'twitter:card': 'summary_large_image',
-	'twitter:site': '',
-	'twitter:url': '',
-	'twitter:creator': '',
-	'twitter:title': '',
-	'twitter:description': '',
+	'twitter:site': 'https://useherald.com',
+	'twitter:url': 'https://useherald.com',
+	'twitter:creator': '@_ilango',
+	'twitter:title': 'Herald',
+	'twitter:description': 'Create waitlists, banners, changelogs and roadmaps for your product in a few minutes.',
 	'twitter:image': '',
 	viewport: 'width=device-width,initial-scale=1',
 })
@@ -75,7 +94,7 @@ const Document = (props: DocumentProps) => {
 						{/* TODO: fill data-domain */}
 						<script
 							defer
-							data-domain=''
+							data-domain='useherald.com'
 							src='https://plausible.io/js/plausible.js'
 						></script>
 					</>
