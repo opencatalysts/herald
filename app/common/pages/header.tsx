@@ -5,15 +5,18 @@ export default function Header() {
 				<div className='flex items-center justify-between'>
 					<div className='flex-shrink-0'>
 						<a
-							href='#'
+							href='/'
 							title=''
-							className='flex rounded outline-none focus:ring-1 focus:ring-gray-900 focus:ring-offset-2'
+							className='flex items-center space-x-2 rounded outline-none focus:ring-1 focus:ring-gray-900 focus:ring-offset-2'
 						>
 							<img
 								className='h-8 w-auto'
-								src='https://cdn.rareblocks.xyz/collection/clarity/images/logo.svg'
+								src='/logo.png'
 								alt=''
 							/>
+							<span className='text-xl font-bold text-white'>
+								Herald
+							</span>
 						</a>
 					</div>
 
@@ -81,24 +84,24 @@ export default function Header() {
 						</a>
 					</div>
 
-					<div className='hidden lg:ml-auto lg:flex lg:items-center lg:space-x-10'>
-						<a
-							href='#'
-							title=''
-							className='font-pj rounded text-base font-medium text-white transition-all duration-200 hover:text-opacity-50 focus:outline-none focus:ring-1 focus:ring-gray-900 focus:ring-offset-2'
-						>
-							Customer Login{' '}
-						</a>
+					{/*<div className='hidden lg:ml-auto lg:flex lg:items-center lg:space-x-10'>*/}
+					{/*<a*/}
+					{/*	href='#'*/}
+					{/*	title=''*/}
+					{/*	className='font-pj rounded text-base font-medium text-white transition-all duration-200 hover:text-opacity-50 focus:outline-none focus:ring-1 focus:ring-gray-900 focus:ring-offset-2'*/}
+					{/*>*/}
+					{/*	Customer Login{' '}*/}
+					{/*</a>*/}
 
-						<a
-							href='#'
-							title=''
-							className='font-pj inline-flex items-center justify-center rounded-xl border border-transparent bg-brand-500 px-4 py-1 text-base font-bold leading-7 text-white transition-all duration-200 hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2'
-							role='button'
-						>
-							Sign up
-						</a>
-					</div>
+					{/*<a*/}
+					{/*	href='#'*/}
+					{/*	title=''*/}
+					{/*	className='font-pj inline-flex items-center justify-center rounded-xl border border-transparent bg-brand-500 px-4 py-1 text-base font-bold leading-7 text-white transition-all duration-200 hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2'*/}
+					{/*	role='button'*/}
+					{/*>*/}
+					{/*	Sign up*/}
+					{/*</a>*/}
+					{/*</div>*/}
 				</div>
 			</div>
 
@@ -129,40 +132,40 @@ export default function Header() {
 							Automation{' '}
 						</a>
 
-						<a
-							href='#'
-							title=''
-							className='font-pj -m-3 flex items-center rounded-xl p-3 text-base font-medium text-gray-900 transition-all duration-200 hover:bg-gray-50 focus:outline-none focus:ring-1 focus:ring-gray-900 focus:ring-offset-2'
-						>
-							Customer Login{' '}
-						</a>
+						{/*<a*/}
+						{/*	href='#'*/}
+						{/*	title=''*/}
+						{/*	className='font-pj -m-3 flex items-center rounded-xl p-3 text-base font-medium text-gray-900 transition-all duration-200 hover:bg-gray-50 focus:outline-none focus:ring-1 focus:ring-gray-900 focus:ring-offset-2'*/}
+						{/*>*/}
+						{/*	Customer Login{' '}*/}
+						{/*</a>*/}
 
-						<a
-							href='#'
-							title=''
-							className='
-                                font-pj
-                                inline-flex
-                                items-center
-                                justify-center
-                                rounded-xl
-                                border
-                                border-transparent
-                                bg-gray-900
-                                px-4
-                                py-2
-                                text-base
-                                font-bold
-                                leading-7 text-white
-                                transition-all
-                                duration-200
-                                hover:bg-gray-600
-                                focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2
-                            '
-							role='button'
-						>
-							Sign up
-						</a>
+						{/*<a*/}
+						{/*	href='#'*/}
+						{/*	title=''*/}
+						{/*	className='*/}
+						{/*        font-pj*/}
+						{/*        inline-flex*/}
+						{/*        items-center*/}
+						{/*        justify-center*/}
+						{/*        rounded-xl*/}
+						{/*        border*/}
+						{/*        border-transparent*/}
+						{/*        bg-gray-900*/}
+						{/*        px-4*/}
+						{/*        py-2*/}
+						{/*        text-base*/}
+						{/*        font-bold*/}
+						{/*        leading-7 text-white*/}
+						{/*        transition-all*/}
+						{/*        duration-200*/}
+						{/*        hover:bg-gray-600*/}
+						{/*        focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2*/}
+						{/*    '*/}
+						{/*	role='button'*/}
+						{/*>*/}
+						{/*	Sign up*/}
+						{/*</a>*/}
 					</div>
 				</div>
 			</nav>

@@ -1,12 +1,15 @@
 export default function Footer() {
 	return (
-		<footer className='bg-gray-900 py-12 sm:pt-16 lg:pt-20'>
+		<footer className='bg-slate py-12 sm:pt-16 lg:pt-20'>
 			<div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
-				<img
-					className='h-8 w-auto'
-					src='https://cdn.rareblocks.xyz/collection/clarity/images/logo.svg'
-					alt=''
-				/>
+				<a
+					href='/'
+					title=''
+					className='flex items-center space-x-2 rounded outline-none focus:ring-1 focus:ring-gray-900 focus:ring-offset-2'
+				>
+					<img className='h-8 w-auto' src='/logo.png' alt='' />
+					<span className='text-xl font-bold text-white'>Herald</span>
+				</a>
 
 				<div className='mt-16 grid grid-cols-2 gap-y-16 gap-x-16 sm:grid-cols-3 lg:grid-cols-6'>
 					<div>
@@ -19,7 +22,7 @@ export default function Footer() {
 								<a
 									href='#'
 									title=''
-									className='font-pj inline-flex transform text-sm font-normal text-gray-900 transition-all duration-300 hover:translate-x-1 hover:text-gray-600'
+									className='font-pj inline-flex transform text-sm font-normal text-white transition-all duration-300 hover:translate-x-1 hover:text-gray-600'
 								>
 									About{' '}
 								</a>
@@ -29,7 +32,7 @@ export default function Footer() {
 								<a
 									href='#'
 									title=''
-									className='font-pj inline-flex transform text-sm font-normal text-gray-900 transition-all duration-300 hover:translate-x-1 hover:text-gray-600'
+									className='font-pj inline-flex transform text-sm font-normal text-white transition-all duration-300 hover:translate-x-1 hover:text-gray-600'
 								>
 									Features{' '}
 								</a>
@@ -39,7 +42,7 @@ export default function Footer() {
 								<a
 									href='#'
 									title=''
-									className='font-pj inline-flex transform text-sm font-normal text-gray-900 transition-all duration-300 hover:translate-x-1 hover:text-gray-600'
+									className='font-pj inline-flex transform text-sm font-normal text-white transition-all duration-300 hover:translate-x-1 hover:text-gray-600'
 								>
 									Works{' '}
 								</a>
@@ -49,7 +52,7 @@ export default function Footer() {
 								<a
 									href='#'
 									title=''
-									className='font-pj inline-flex transform text-sm font-normal text-gray-900 transition-all duration-300 hover:translate-x-1 hover:text-gray-600'
+									className='font-pj inline-flex transform text-sm font-normal text-white transition-all duration-300 hover:translate-x-1 hover:text-gray-600'
 								>
 									Career{' '}
 								</a>
@@ -58,7 +61,7 @@ export default function Footer() {
 					</div>
 
 					<div>
-						<h6 className='font-pj text-sm font-bold uppercase tracking-widest text-gray-900'>
+						<h6 className='font-pj text-sm font-bold uppercase tracking-widest text-white'>
 							Help
 						</h6>
 
@@ -67,7 +70,7 @@ export default function Footer() {
 								<a
 									href='#'
 									title=''
-									className='font-pj inline-flex transform text-sm font-normal text-gray-900 transition-all duration-300 hover:translate-x-1 hover:text-gray-600'
+									className='font-pj inline-flex transform text-sm font-normal text-white transition-all duration-300 hover:translate-x-1 hover:text-gray-600'
 								>
 									Customer Support{' '}
 								</a>
@@ -77,7 +80,7 @@ export default function Footer() {
 								<a
 									href='#'
 									title=''
-									className='font-pj inline-flex transform text-sm font-normal text-gray-900 transition-all duration-300 hover:translate-x-1 hover:text-gray-600'
+									className='font-pj inline-flex transform text-sm font-normal text-white transition-all duration-300 hover:translate-x-1 hover:text-gray-600'
 								>
 									Delivery Details{' '}
 								</a>
@@ -87,7 +90,7 @@ export default function Footer() {
 								<a
 									href='#'
 									title=''
-									className='font-pj inline-flex transform text-sm font-normal text-gray-900 transition-all duration-300 hover:translate-x-1 hover:text-gray-600'
+									className='font-pj inline-flex transform text-sm font-normal text-white transition-all duration-300 hover:translate-x-1 hover:text-gray-600'
 								>
 									Terms & Conditions{' '}
 								</a>
@@ -97,7 +100,7 @@ export default function Footer() {
 								<a
 									href='#'
 									title=''
-									className='font-pj inline-flex transform text-sm font-normal text-gray-900 transition-all duration-300 hover:translate-x-1 hover:text-gray-600'
+									className='font-pj inline-flex transform text-sm font-normal text-white transition-all duration-300 hover:translate-x-1 hover:text-gray-600'
 								>
 									Privacy Policy{' '}
 								</a>
@@ -106,7 +109,7 @@ export default function Footer() {
 					</div>
 
 					<div className='col-span-2 sm:col-span-1'>
-						<h6 className='font-pj text-sm font-bold uppercase tracking-widest text-gray-900'>
+						<h6 className='font-pj text-sm font-bold uppercase tracking-widest text-white'>
 							Resources
 						</h6>
 
@@ -115,7 +118,7 @@ export default function Footer() {
 								<a
 									href='#'
 									title=''
-									className='font-pj inline-flex transform text-sm font-normal text-gray-900 transition-all duration-300 hover:translate-x-1 hover:text-gray-600'
+									className='font-pj inline-flex transform text-sm font-normal text-white transition-all duration-300 hover:translate-x-1 hover:text-gray-600'
 								>
 									Free eBooks{' '}
 								</a>
@@ -125,7 +128,7 @@ export default function Footer() {
 								<a
 									href='#'
 									title=''
-									className='font-pj inline-flex transform text-sm font-normal text-gray-900 transition-all duration-300 hover:translate-x-1 hover:text-gray-600'
+									className='font-pj inline-flex transform text-sm font-normal text-white transition-all duration-300 hover:translate-x-1 hover:text-gray-600'
 								>
 									Development Tutorial{' '}
 								</a>
@@ -135,7 +138,7 @@ export default function Footer() {
 								<a
 									href='#'
 									title=''
-									className='font-pj inline-flex transform text-sm font-normal text-gray-900 transition-all duration-300 hover:translate-x-1 hover:text-gray-600'
+									className='font-pj inline-flex transform text-sm font-normal text-white transition-all duration-300 hover:translate-x-1 hover:text-gray-600'
 								>
 									How to - Blog{' '}
 								</a>
@@ -145,7 +148,7 @@ export default function Footer() {
 								<a
 									href='#'
 									title=''
-									className='font-pj inline-flex transform text-sm font-normal text-gray-900 transition-all duration-300 hover:translate-x-1 hover:text-gray-600'
+									className='font-pj inline-flex transform text-sm font-normal text-white transition-all duration-300 hover:translate-x-1 hover:text-gray-600'
 								>
 									Youtube Playlist{' '}
 								</a>
@@ -154,7 +157,7 @@ export default function Footer() {
 					</div>
 
 					<div className='col-span-2 sm:col-span-3 xl:pl-20'>
-						<h6 className='font-pj text-sm font-bold uppercase tracking-widest text-gray-900'>
+						<h6 className='font-pj text-sm font-bold uppercase tracking-widest text-white'>
 							Subscribe to newsletter
 						</h6>
 
@@ -177,7 +180,7 @@ export default function Footer() {
 											name=''
 											id=''
 											placeholder='Enter email address'
-											className='font-pj block w-full rounded-l-xl border-gray-300 bg-white px-4 py-4 text-base text-gray-900 placeholder-gray-600 caret-gray-900 focus:border-gray-900 focus:ring-gray-900'
+											className='font-pj block w-full rounded-l-xl border-gray-300 bg-white px-4 py-4 text-base text-white placeholder-gray-600 caret-gray-900 focus:border-gray-900 focus:ring-gray-900'
 											required
 										/>
 									</div>
@@ -191,32 +194,6 @@ export default function Footer() {
 								</div>
 							</form>
 						</div>
-
-						<div className='mt-8 grid grid-cols-1 gap-y-8 sm:grid-cols-2 sm:gap-x-16'>
-							<div>
-								<h6 className='font-pj text-sm font-bold uppercase tracking-widest text-gray-900'>
-									Call us
-								</h6>
-								<p className='font-pj mt-2.5 text-xl font-bold text-gray-900'>
-									<a href='#' title=''>
-										{' '}
-										(239) 555-0108{' '}
-									</a>
-								</p>
-							</div>
-
-							<div>
-								<h6 className='font-pj text-sm font-bold uppercase tracking-widest text-gray-900'>
-									Email us
-								</h6>
-								<p className='font-pj mt-2.5 text-xl font-bold text-gray-900'>
-									<a href='#' title=''>
-										{' '}
-										info@rareblocks.xyz{' '}
-									</a>
-								</p>
-							</div>
-						</div>
 					</div>
 				</div>
 
@@ -229,7 +206,7 @@ export default function Footer() {
 								href='#'
 								target='_blank'
 								title=''
-								className='inline-flex h-10 w-10 items-center justify-center rounded-full text-gray-900 transition-all duration-200 hover:bg-gray-100 focus:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-200 focus:ring-offset-2'
+								className='inline-flex h-10 w-10 items-center justify-center rounded-full text-white transition-all duration-200 hover:bg-gray-100 focus:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-200 focus:ring-offset-2'
 								rel='noopener'
 							>
 								<svg
@@ -248,7 +225,7 @@ export default function Footer() {
 								href='#'
 								target='_blank'
 								title=''
-								className='inline-flex h-10 w-10 items-center justify-center rounded-full text-gray-900 transition-all duration-200 hover:bg-gray-100 focus:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-200 focus:ring-offset-2'
+								className='inline-flex h-10 w-10 items-center justify-center rounded-full text-white transition-all duration-200 hover:bg-gray-100 focus:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-200 focus:ring-offset-2'
 								rel='noopener'
 							>
 								<svg
@@ -267,7 +244,7 @@ export default function Footer() {
 								href='#'
 								target='_blank'
 								title=''
-								className='inline-flex h-10 w-10 items-center justify-center rounded-full text-gray-900 transition-all duration-200 hover:bg-gray-100 focus:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-200 focus:ring-offset-2'
+								className='inline-flex h-10 w-10 items-center justify-center rounded-full text-white transition-all duration-200 hover:bg-gray-100 focus:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-200 focus:ring-offset-2'
 								rel='noopener'
 							>
 								<svg
@@ -292,7 +269,7 @@ export default function Footer() {
 								href='#'
 								target='_blank'
 								title=''
-								className='inline-flex h-10 w-10 items-center justify-center rounded-full text-gray-900 transition-all duration-200 hover:bg-gray-100 focus:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-200 focus:ring-offset-2'
+								className='inline-flex h-10 w-10 items-center justify-center rounded-full text-white transition-all duration-200 hover:bg-gray-100 focus:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-200 focus:ring-offset-2'
 								rel='noopener'
 							>
 								<svg

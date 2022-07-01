@@ -19,7 +19,7 @@ export default function Pricing() {
 						></div>
 					</div>
 
-					<div className='relative overflow-hidden rounded-2xl bg-gray-900'>
+					<div className='relative overflow-hidden rounded-2xl bg-slate'>
 						<div className='px-16 py-8 sm:px-8 lg:px-16 lg:py-14'>
 							<div className='md:flex md:items-center md:space-x-12 lg:space-x-24'>
 								<div className='grid grid-cols-1 gap-y-3 gap-x-12 sm:grid-cols-2 xl:gap-x-24'>

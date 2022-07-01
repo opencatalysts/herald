@@ -1,6 +1,6 @@
 export default function Feature01() {
 	return (
-		<section className='bg-gray-900 py-12 sm:py-16 lg:py-20'>
+		<section className='bg-slate py-12 sm:py-16 lg:py-20'>
 			<div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
 				<div className='text-center'>
 					<h2 className='font-pj text-xl font-bold text-white sm:text-2xl xl:text-3xl'>
@@ -15,7 +15,7 @@ export default function Feature01() {
 				<div className='mx-auto mt-8 grid max-w-md grid-cols-3 gap-8 lg:mt-20 lg:max-w-none lg:flex-row'>
 					<div className='relative w-full flex-1 overflow-hidden rounded-2xl border border-brand-900 bg-brand-900'>
 						<div className='py-8 px-9'>
-							<div className='font-pj inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gray-900 text-base font-bold text-white'>
+							<div className='font-pj inline-flex h-10 w-10 items-center justify-center rounded-xl bg-slate-800 text-base font-bold text-white'>
 								1
 							</div>
 							<p className='font-pj mt-5 text-xl font-medium text-white'>
@@ -37,7 +37,7 @@ export default function Feature01() {
 
 						<div className='relative overflow-hidden rounded-2xl border border-brand-900 bg-brand-900'>
 							<div className='py-8 px-9'>
-								<div className='font-pj inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gray-900 text-base font-bold text-white'>
+								<div className='font-pj inline-flex h-10 w-10 items-center justify-center rounded-xl bg-slate-800 text-base font-bold text-white'>
 									2
 								</div>
 								<p className='font-pj mt-5 text-xl font-medium text-white'>
@@ -54,7 +54,7 @@ export default function Feature01() {
 
 					<div className='relative w-full flex-1 overflow-hidden rounded-2xl border border-brand-900 bg-brand-900'>
 						<div className='py-8 px-9'>
-							<div className='font-pj inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gray-900 text-base font-bold text-white'>
+							<div className='font-pj inline-flex h-10 w-10 items-center justify-center rounded-xl bg-slate-800 text-base font-bold text-white'>
 								3
 							</div>
 							<p className='font-pj mt-5 text-xl font-medium text-white'>
@@ -68,7 +68,7 @@ export default function Feature01() {
 
 					<div className='relative w-full flex-1 overflow-hidden rounded-2xl border border-brand-900 bg-brand-900'>
 						<div className='py-8 px-9'>
-							<div className='font-pj inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gray-900 text-base font-bold text-white'>
+							<div className='font-pj inline-flex h-10 w-10 items-center justify-center rounded-xl bg-slate-800 text-base font-bold text-white'>
 								4
 							</div>
 							<p className='font-pj mt-5 text-xl font-medium text-white'>
@@ -90,7 +90,7 @@ export default function Feature01() {
 
 						<div className='relative overflow-hidden rounded-2xl border border-brand-900 bg-brand-900'>
 							<div className='py-8 px-9'>
-								<div className='font-pj inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gray-900 text-base font-bold text-white'>
+								<div className='font-pj inline-flex h-10 w-10 items-center justify-center rounded-xl bg-slate-800 text-base font-bold text-white'>
 									5
 								</div>
 								<p className='font-pj mt-5 text-xl font-medium text-white'>
@@ -107,7 +107,7 @@ export default function Feature01() {
 
 					<div className='relative w-full flex-1 overflow-hidden rounded-2xl border border-brand-900 bg-brand-900'>
 						<div className='py-8 px-9'>
-							<div className='font-pj inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gray-900 text-base font-bold text-white'>
+							<div className='font-pj inline-flex h-10 w-10 items-center justify-center rounded-xl bg-slate-800 text-base font-bold text-white'>
 								6
 							</div>
 							<p className='font-pj mt-5 text-xl font-medium text-white'>
